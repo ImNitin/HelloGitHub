@@ -27,7 +27,6 @@ public class EmployeeController {
 		System.out.println(55555555);
 		Statement state = con.createStatement();
 		String sql = "select * from studentrecord";	
-		
 		ArrayList<StudentRecord> al = new ArrayList<>();
 		StudentRecord ss = null;
 		ResultSet rs = state.executeQuery(sql);
